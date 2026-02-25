@@ -42,3 +42,21 @@ To get the root directory of the current Git repository from CLI, use this comma
 
 ✅ Open global Git config (user-wide)
     -- git config --global --edit      (in my case [user]  name = shadabgit    email = wasai.gimt@gmail.com)
+
+
+_________________________________________________________________________________________________________________________________
+
+✅ create a new branch with specified name:
+    -- git checkout -b backend
+    ** modify and add files. Then stage and commit changes.
+
+    Switching from backend branch to main branch:
+    -- git checkout main
+
+    Step 1: Select the required branch needed to be pushed into the origin 
+            -- git checkout backend
+    Step 2: Validate if any new changes available in main branch from origin/cloud source repo.
+            -- git pull origin main
+    Step 3: Now push the changes from our backend  branch to origin/source repo.
+            -- git push origin backend
+            
