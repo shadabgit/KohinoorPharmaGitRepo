@@ -31,3 +31,14 @@ Important CLIs used for git and github:
         -u (or --set-upstream): This flag is the key part that simplifies future Git operations. After using -u once for a branch, 
                             you can subsequently use simple commands like git push or git pull without having to specify origin main
                             every time. Git remembers the connection.
+
+
+To get the root directory of the current Git repository from CLI, use this command:
+    -- git rev-parse --show-toplevel  (Prints the absolute path of the Git repository’s root folder. Works from any subfolder inside the repo)
+
+✅ Open repository-level Git config (from inside a Git repo)    
+    -- git config --edit
+    ✔ Opens .git/config in your default editor e.g., in my case the local dir .git config file.
+
+✅ Open global Git config (user-wide)
+    -- git config --global --edit      (in my case [user]  name = shadabgit    email = wasai.gimt@gmail.com)
