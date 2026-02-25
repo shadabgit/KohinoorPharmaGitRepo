@@ -1,2 +1,33 @@
 This project is for testing git working !
 Started training today.
+
+As of dated Feb 25, 2026 code has been pushed to origin i.e. github repository [https://github.com/shadabgit/KohinoorPharmaGitRepo.git]
+
+
+Important CLIs used for git and github:
+
+-- git init (initialize a local repository)
+-- git add . (adding all the modified file into stage area)
+-- git add index.html (adding specific modified file e.g., index.html into stage area)
+-- git commit -m "first init" (commit the changes from stage to local repository)
+-- git log (to get the log of committed versions)
+-- git restore --staged index.html  (used to revert from stage to modified state)
+
+**git by default create Master branch, in case if required to create manual branches :
+    -- git branch -M main
+    ** to check the branches    
+        -- git branch
+
+** Create a github account and add a new repository on cloud (github in this case)
+    -- KohinoorPharmaGitRepo.git  is cloud repository.
+    To connect the local repo wiht cloud repo use below command:
+      -- git remote add origin https://github.com/shadabgit/KohinoorPharmaGitRepo.git
+      -- git remote -v     (used to check the remote versions)
+    
+    It will pushes your local main branch to the remote repository named origin and sets up a tracking relationship (-u /upstream) between the two
+      -- git push -u origin main
+
+      Note: 
+        -u (or --set-upstream): This flag is the key part that simplifies future Git operations. After using -u once for a branch, 
+                            you can subsequently use simple commands like git push or git pull without having to specify origin main
+                            every time. Git remembers the connection.
