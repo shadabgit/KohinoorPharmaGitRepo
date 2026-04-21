@@ -7,14 +7,18 @@ As of dated Feb 25, 2026 code has been pushed to origin i.e. github repository [
 Important CLIs used for git and github:
 
 -- git init (initialize a local repository)
--- git add . (adding all the modified file into stage area)
+-- git add . (adding all the modified file into stage area/ tracking area)
 -- git add index.html (adding specific modified file e.g., index.html into stage area)
 -- git commit -m "first init" (commit the changes from stage to local repository)
--- git log (to get the log of committed versions)
+
+✅ Verify author of last commit:             -- git log -1
+    To get the log of committed versions     -- git log 
+
 -- git restore --staged index.html  (used to revert from stage to modified state)
 
 **git by default create Master branch, in case if required to create manual branches :
     -- git branch -M main
+    
     ** to check the branches    
         -- git branch
 
@@ -33,8 +37,50 @@ Important CLIs used for git and github:
                             every time. Git remembers the connection.
 
 
+🔑 Priority order Git uses
+        ** Repository (.git/config)
+        ** Global (~/.gitconfig)
+        ** System
+
+🧠 Common issue (important):
+        * Your Git username/email ≠ GitHub login email
+        * Git email must match a verified email in GitHub for commits to link properly.
+
+
 To get the root directory of the current Git repository from CLI, use this command:
     -- git rev-parse --show-toplevel  (Prints the absolute path of the Git repository’s root folder. Works from any subfolder inside the repo)
+
+🔹 Extra useful variants
+    Check if you are inside a Git repo:
+        -- git rev-parse --is-inside-work-tree
+    Get .git directory path:
+        -- git rev-parse --git-dir
+
+This works in Git Bash, CMD, PowerShell, and Linux/macOS terminals.
+
+
+Use these CLI commands to verify Git user details 👇 -----------------------------
+
+✅ Check user configured for the current Git repository
+(Repo-specific config)
+    git config user.name
+    git config user.email
+
+✅ Check global Git user (used by default)
+(System-wide)
+    git config --global user.name
+    git config --global user.email
+
+✅ See which user is actually active for this repo
+(Git applies repo → global → system priority)
+    git config --show-origin --get user.name
+    git config --show-origin --get user.email
+
+    ** This shows where the value is coming from (.git/config or ~/.gitconfig).
+
+✅ List ALL Git config values (filtered)
+        git config --list | findstr user
+
 
 ✅ Open repository-level Git config (from inside a Git repo)    
     -- git config --edit
@@ -60,3 +106,8 @@ ________________________________________________________________________________
     Step 3: Now push the changes from our backend  branch to origin/source repo.
             -- git push origin backend
             
+
+_________________________________________________________________________________________________________________________________
+
+ 
+
