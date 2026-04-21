@@ -3,3 +3,13 @@ function showMessage() {
 }
 
 console.log('Backend code updated');
+
+ 
+function goToAbout() {
+    window.location.href = "aboutus.html";
+} 
+
+function goToHome() {
+    window.location.href = "index.html";
+} 
+
