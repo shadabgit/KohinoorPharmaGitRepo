@@ -1,0 +1,11 @@
+.image-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-section img {
+    width: 300px;
+    border-radius: 8px;
+}
