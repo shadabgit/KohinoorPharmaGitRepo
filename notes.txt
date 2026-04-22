@@ -104,9 +104,10 @@ ________________________________________________________________________________
     Step 2: Validate if any new changes available in main branch from origin/cloud source repo.
             -- git pull origin main      (Will open editor)
             Note:  (skip editor next time) :    git pull origin main --no-edit
-            Safer side:   git fetch origin   
+                Safer side:   git fetch origin   
     Step 3: Now push the changes from our backend  branch to origin/source repo.
-            -- git push origin backend
+            -- git push origin backend   
+                Safer side: git merge origin/backend
             
 
 _________________________________________________________________________________________________________________________________
