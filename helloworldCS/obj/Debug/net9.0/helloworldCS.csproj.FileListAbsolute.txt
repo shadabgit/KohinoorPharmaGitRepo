@@ -1,0 +1,15 @@
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\bin\Debug\net9.0\helloworldCS.exe
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\bin\Debug\net9.0\helloworldCS.deps.json
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\bin\Debug\net9.0\helloworldCS.runtimeconfig.json
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\bin\Debug\net9.0\helloworldCS.dll
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\bin\Debug\net9.0\helloworldCS.pdb
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.GeneratedMSBuildEditorConfig.editorconfig
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.AssemblyInfoInputs.cache
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.AssemblyInfo.cs
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.csproj.CoreCompileInputs.cache
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.sourcelink.json
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.dll
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\refint\helloworldCS.dll
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.pdb
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\helloworldCS.genruntimeconfig.cache
+E:\Master Classes\WSCubeTech-Master Git and Github\KohinoorSampleWebsite1\helloworldCS\obj\Debug\net9.0\ref\helloworldCS.dll
